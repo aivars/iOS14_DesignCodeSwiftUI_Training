@@ -17,6 +17,10 @@
 		6058DBF824E63EAA009ADD6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6058DBE324E63EA8009ADD6C /* ContentView.swift */; };
 		6058DBF924E63EAA009ADD6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6058DBE424E63EAA009ADD6C /* Assets.xcassets */; };
 		6058DBFA24E63EAA009ADD6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6058DBE424E63EAA009ADD6C /* Assets.xcassets */; };
+		606D783224EC4F9800052A92 /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606D783124EC4F9800052A92 /* CourseItem.swift */; };
+		606D783324EC4F9800052A92 /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606D783124EC4F9800052A92 /* CourseItem.swift */; };
+		606D783724EC51C100052A92 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606D783624EC51C100052A92 /* CourseList.swift */; };
+		606D783824EC51C100052A92 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606D783624EC51C100052A92 /* CourseList.swift */; };
 		6081C9E424EAE1D20072C2FB /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6081C9E324EAE1D20072C2FB /* Sidebar.swift */; };
 		6081C9E524EAE1D20072C2FB /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6081C9E324EAE1D20072C2FB /* Sidebar.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +36,8 @@
 		6058DBF124E63EAA009ADD6C /* DesignCodeCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCodeCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6058DBF324E63EAA009ADD6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6058DBF424E63EAA009ADD6C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		606D783124EC4F9800052A92 /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
+		606D783624EC51C100052A92 /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
 		6081C9E324EAE1D20072C2FB /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,10 +73,10 @@
 			isa = PBXGroup;
 			children = (
 				6058DBE224E63EA8009ADD6C /* DesignCodeCourseApp.swift */,
-				6058DBE324E63EA8009ADD6C /* ContentView.swift */,
-				601BC14B24E7A90400995CF3 /* CourseRow.swift */,
+				606D783424EC50E900052A92 /* Navigation */,
+				606D783524EC510E00052A92 /* Items */,
 				601BC14E24E7AFAC00995CF3 /* CoursesView.swift */,
-				6081C9E324EAE1D20072C2FB /* Sidebar.swift */,
+				606D783624EC51C100052A92 /* CourseList.swift */,
 				6058DBE424E63EAA009ADD6C /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -100,6 +106,24 @@
 				6058DBF424E63EAA009ADD6C /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		606D783424EC50E900052A92 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				6058DBE324E63EA8009ADD6C /* ContentView.swift */,
+				6081C9E324EAE1D20072C2FB /* Sidebar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		606D783524EC510E00052A92 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				606D783124EC4F9800052A92 /* CourseItem.swift */,
+				601BC14B24E7A90400995CF3 /* CourseRow.swift */,
+			);
+			path = Items;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,10 +224,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6081C9E424EAE1D20072C2FB /* Sidebar.swift in Sources */,
+				606D783224EC4F9800052A92 /* CourseItem.swift in Sources */,
 				6058DBF724E63EAA009ADD6C /* ContentView.swift in Sources */,
 				601BC14C24E7A90400995CF3 /* CourseRow.swift in Sources */,
 				6058DBF524E63EAA009ADD6C /* DesignCodeCourseApp.swift in Sources */,
 				601BC14F24E7AFAC00995CF3 /* CoursesView.swift in Sources */,
+				606D783724EC51C100052A92 /* CourseList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,10 +238,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6081C9E524EAE1D20072C2FB /* Sidebar.swift in Sources */,
+				606D783324EC4F9800052A92 /* CourseItem.swift in Sources */,
 				6058DBF824E63EAA009ADD6C /* ContentView.swift in Sources */,
 				601BC14D24E7A90400995CF3 /* CourseRow.swift in Sources */,
 				6058DBF624E63EAA009ADD6C /* DesignCodeCourseApp.swift in Sources */,
 				601BC15024E7AFAC00995CF3 /* CoursesView.swift in Sources */,
+				606D783824EC51C100052A92 /* CourseList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
