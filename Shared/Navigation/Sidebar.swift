@@ -13,7 +13,7 @@ struct Sidebar: View {
             #if os(iOS)
             content
                 .navigationTitle("Learn")
-                .toolbar(items: {
+                .toolbar(content: {
                     ToolbarItem(placement: .navigationBarTrailing) {
                             Image(systemName: "person.crop.circle")
                         }
