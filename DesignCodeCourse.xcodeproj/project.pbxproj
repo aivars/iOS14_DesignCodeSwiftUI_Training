@@ -43,6 +43,7 @@
 		6081C9E524EAE1D20072C2FB /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6081C9E324EAE1D20072C2FB /* Sidebar.swift */; };
 		6090905B24F06C810038FAD8 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6090905A24F06C810038FAD8 /* VisualEffectBlur.swift */; };
 		6090905D24F06C8B0038FAD8 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6090905C24F06C8B0038FAD8 /* VisualEffectBlur.swift */; };
+		6090905F24F202670038FAD8 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6090905E24F202670038FAD8 /* TabBar.swift */; };
 		60FF460D24ED16E2002D70CE /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FF460C24ED16E2002D70CE /* Course.swift */; };
 		60FF460E24ED16E2002D70CE /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FF460C24ED16E2002D70CE /* Course.swift */; };
 /* End PBXBuildFile section */
@@ -72,6 +73,7 @@
 		6081C9E324EAE1D20072C2FB /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 		6090905A24F06C810038FAD8 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		6090905C24F06C8B0038FAD8 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		6090905E24F202670038FAD8 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		60FF460C24ED16E2002D70CE /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				6058DBE324E63EA8009ADD6C /* ContentView.swift */,
+				6090905E24F202670038FAD8 /* TabBar.swift */,
 				6081C9E324EAE1D20072C2FB /* Sidebar.swift */,
 			);
 			path = Navigation;
@@ -279,6 +282,7 @@
 			files = (
 				60FF460D24ED16E2002D70CE /* Course.swift in Sources */,
 				602A9E8A24EF892A0081D1D9 /* TutorialSection.swift in Sources */,
+				6090905F24F202670038FAD8 /* TabBar.swift in Sources */,
 				602A9E9424EF892A0081D1D9 /* Tutorial.swift in Sources */,
 				6081C9E424EAE1D20072C2FB /* Sidebar.swift in Sources */,
 				606D783224EC4F9800052A92 /* CourseItem.swift in Sources */,
